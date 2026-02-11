@@ -7,17 +7,17 @@ Author: Khalid Jiwani
 This project demonstrates a modern, AI-assisted workflow for ICU patient monitoring.
 The app allows clinicians and students to upload patient vital sign data, visualize trends, detect critical abnormalities, and receive both procedural and medical recommendations powered by AI.
 
-Problem Solved: 
+**Problem Solved: **
 
 •	Rapid identification of clinical emergencies in ICU patient data.
 •	Provides AI-driven support to guide ICU nurses and clinicians with best-practice procedural actions and general medical considerations.
 
-Relation to AI/AI-assisted Workflows: 
+**Relation to AI/AI-assisted Workflows:**
 
 •	Integrates OpenAI's API to dynamically generate agentic recommendations and medical insights based on real patient data.
 •	Features AI observability, tracking API token usage and latency for transparency and optimization.
  
-What the Code Does
+**What the Code Does**
 
 •	Data Ingestion: Accepts patient CSV files, preprocesses, and validates.
 •	Abnormality Detection: Flags dangerous values (e.g., abnormal heart rate, low oxygen saturation).
@@ -30,9 +30,9 @@ What the Code Does
 •	AI Observability: Tracks and visualizes API token usage and latency for each AI call.
 •	Reporting: Allows download of patient data and AI-generated recommendations.
  
-How to Run or Use
+**How to Run or Use**
 
-Prerequisites:
+**Prerequisites:**
 
 •	Python 3.x
 •	Required packages: streamlit, pandas, openai, plotly, python-dotenv
@@ -51,14 +51,14 @@ o	Do NOT commit .env or any API keys to GitHub!
 streamlit run your_script.py
 5.	Upload a patient CSV file and use the sidebar to explore features.
 
-Security & Safe Sharing
+**Security & Safe Sharing**
 
 IMPORTANT: To maintain security and protect sensitive information:
 •	No API Keys: The OPENAI_API_KEY is managed via a .env file which is not included in this repository.
 •	Gitignore: A .gitignore file should be used to ensure .env and other local configuration files are never uploaded to GitHub.
 •	No Private Data: This script does not store or transmit personal user data beyond the session requirements for the OpenAI API.
 
-License
+**License**
 
 This project is for academic demonstration only.
 Not for real clinical use.
