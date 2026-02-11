@@ -8,7 +8,7 @@ Author: Khalid Jiwani
 This project demonstrates a modern, AI-assisted workflow for ICU patient monitoring.
 The app allows clinicians and students to upload patient vital sign data, visualize trends, detect critical abnormalities, and receive both procedural and medical recommendations powered by AI.
 
-**Problem Solved: **
+**Problem Solved:**
 
 •	Rapid identification of clinical emergencies in ICU patient data.
 •	Provides AI-driven support to guide ICU nurses and clinicians with best-practice procedural actions and general medical considerations.
