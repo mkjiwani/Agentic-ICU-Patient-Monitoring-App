@@ -1,5 +1,3 @@
-
-
 # Agentic-ICU-Patient-Monitoring-App
 
 Author: Khalid Jiwani
@@ -30,7 +28,20 @@ The app allows clinicians and students to upload patient vital sign data, visual
 •	Visualization: Displays patient trends, summary statistics, and timeline with highlighted criticals.
 •	AI Observability: Tracks and visualizes API token usage and latency for each AI call.
 •	Reporting: Allows download of patient data and AI-generated recommendations.
- 
+
+**Sample Patient Data**
+
+This repository also includes 3 sample CSV files for use with this app (you can create your own sample data as well). These CSV files contain specific columns of ECG, Heartbeat per minute, Temperature, Blood pressure, Blood oxygen level, for 1 hour’s data, including data that showing abnormality that requires immediate attention by a Nurse at ICU. Each CSV contain 1 hours (60 minutes) of minute-by-minute vitals with following columns:
+
+•	patient_id
+•	timestamp
+•	ECG
+•	heart_rate_bpm
+•	temperature_c
+•	bp_systolic_mmHg
+•	bp_diastolic_mmHg
+•	spo2_percent
+
 **How to Run or Use**
 
 **Prerequisites:**
